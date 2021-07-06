@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\hogwartsAPI.Abstractions\hogwartsAPI.Abstractions.csproj" />
+    <ProjectReference Include="..\hogwartsAPI.DataAccess\hogwartsAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\hogwartsAPI.Entities\hogwartsAPI.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
